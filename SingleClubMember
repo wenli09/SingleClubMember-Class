@@ -1,0 +1,19 @@
+package SingleClubMember;
+
+public class SingleCluMember extends Member{
+  private int club;
+  SingleClubMember(char pMemberType, int pMember ID, Stinhg pName, double pFees, in t pClub){
+    Super(pMemberType, pMemberID, PName, pFees);
+    club = pClub;
+  }
+  public void setclub(intp pClub){
+    club = pClub;
+  }
+  public int getClub(){
+    return club;
+    @Override
+    public String yoSting(){
+      return super.toSting() + "," + club;
+    }
+  }
+}
